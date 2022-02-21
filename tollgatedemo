@@ -1,0 +1,15 @@
+#tollgate
+# In ths program in real time,the vehicle sensor is located at the lan starting point, and the sensor is act as a user 
+# it sense the vehicle and select the lan type. this simple program is very useful in real time
+print("""select the lan type
+      1.lan1
+      2.lan2
+      2.lan3
+      """)
+choice = int(input("enter the choice"))
+if choice == 1:
+    print("In lan 1 one vehicle was entering")
+if choice == 2:
+    print("In lan 1 one vehicle was entering")
+if choice == 3:
+    print("In lan 3 one vehicle was entering")
